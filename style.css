@@ -427,7 +427,6 @@ nav a {
     align-items: flex-end;
     justify-content: space-between;
     padding: 0 80px;
-    /* background-color: grey; */
 }
 
 .sec-5-active {
@@ -607,7 +606,6 @@ nav a {
 
 
 .section-7 {
-    /* background-color: red; */
     min-height: 120vh;
     width: 100%;
     display: flex;
@@ -1262,9 +1260,7 @@ footer {
 
 }
 
-@media(max-width:420px) {
-
-
+@media (max-width:480px) {
     .text-sec-1 {
         padding: 0 0 20px 0;
     }
@@ -1290,103 +1286,67 @@ footer {
 
     .who-we-2 img {
         bottom: 245px;
-        left: 20px;
+        left: 55px;
     }
 
     .who-we-3 img {
         top: 140px;
-        left: 210px;
+        left: 245px;
     }
 
     .who-we-4 {
         top: 41px;
-        left: 227px;
+        left: 262px;
     }
 
     .who-we-5 {
         top: 295px;
-        left: 155px;
+        left: 190px;
     }
 
-    .four-first {
-        height: 130px;
-        width: 130px;
-    }
 
     .section-4 {
         padding: 0;
     }
 
-    .sec-4-four {
-        width: 80%;
+    .four-first {
+        width: 123px;
+        height: 130px;
+
     }
+
+    .sec-4-four {
+        width: 60%;
+    }
+
 
     .section-6 {
-        width: 100%;
-        height: auto;
-        padding: 0;
-        margin: 0;
-    }
-
-    .sec-6-second {
-        width: 100%;
-        height: auto;
+        height: 160vh;
     }
 
     .captins-review {
         width: 100%;
-        height: 0px;
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        padding: 0 10px;
-    }
-
-    .review-first {
-        width: 100%;
-        height: 500px;
-        margin: 15px 0;
-    }
-
-    #blank-image {
-        top: 105px;
-        left: 295px;
-    }
-
-    #blank {
-        top: 100px;
-        left: 290px;
     }
 
     .seven-first-image img {
         bottom: 218;
-        left: 55px;
-        width: 150px;
+        left: 40px;
     }
 
     .seven-second-image img {
-        width: 150px;
-        bottom: 90px;
-        right: 55px;
+        width: 190px;
+        bottom: 10px;
+        right: 60px;
     }
 
     .seven-first-blank {
-        top: 120px;
-        right: 126px;
+        top: 115px;
+        right: 170px;
     }
 
     .seven-second-blank {
-        bottom: 135px;
-        right: 215px;
-    }
-
-    .section-7 {
-        align-items: flex-start;
-        width: 100%;
-        height: 100vh;
-        margin: 0;
-        padding: 0;
-        background-color: red;
+        bottom: 105px;
+        right: 254px;
     }
 
 }
