@@ -1308,6 +1308,10 @@ footer {
         left: 155px;
     }
 
+    .four-first {
+        height: 130px;
+        width: 130px;
+    }
 
     .section-4 {
         padding: 0;
@@ -1325,6 +1329,7 @@ footer {
 
     .sec-6-second {
         width: 100%;
+        height: auto;
     }
 
     .captins-review {
