@@ -1324,7 +1324,8 @@ footer {
     .section-6 {
         width: 100%;
         height: auto;
-        height: auto;
+        padding: 0;
+        margin: 0;
     }
 
     .sec-6-second {
@@ -1380,8 +1381,12 @@ footer {
     }
 
     .section-7 {
+        align-items: flex-start;
         width: 100%;
-        height: auto;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-color: red;
     }
 
 }
